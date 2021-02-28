@@ -1,0 +1,63 @@
+@use 'lib'; 
+.site-footer {   
+    display: flex;   
+    justify-content: space-around; 
+    width: 1300px; 
+    height: 191px;
+    background-color: lib.$color3; 
+    padding: 25px; 
+    // margin-top: 25px;
+} 
+  
+.logowhite {    
+    margin: 48px 0 0 80px;
+}
+.social-media {  
+    margin:  120px 0 0 -230px;
+} 
+.social-links {  
+    margin: 2.5px;
+} 
+.info { 
+    display: flex;  
+} 
+.info li {    
+    margin-left: 50px;
+    list-style-type: none; 
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.234375px;
+    color: #FFFFFF; 
+} 
+.info a { 
+    text-decoration: none; 
+    color: #FFFFFF; 
+} 
+.info a:hover { 
+    color: #30C88F;
+}
+.site-button4 { 
+     margin-top: 40px;
+    // border: hotpink 1px solid; 
+   
+} 
+.site-button4 a {     
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: lib.$color1;  
+    background: lib.$color7;
+    border-radius: 22px;
+} 
+.reserveed {  
+    font-size: 15px;
+    line-height: 26px;
+    line-height: 148%;
+    vertical-align: Top;
+    letter-spacing: -0.23px; 
+} 
+.site-button4:hover { 
+    Opacity: 40%;  
+    Blend: Normal;
+    fill: Solid #FFFFFF;
+}  

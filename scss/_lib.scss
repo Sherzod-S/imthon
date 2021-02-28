@@ -1,0 +1,22 @@
+@mixin makeBox ($width, $height, $color) { 
+    width: $width; 
+    height: $height; 
+    background-color: $color;
+} 
+ 
+@mixin makeTransition ($name, $time, $effect) { 
+    transition: { 
+        property: $name; 
+        duration: $time; 
+        timing-function: $effect;
+    } 
+} 
+  
+$color1:   #FFFFFF;
+$color2:  #9597A5; 
+$color3:  #2D314D; 
+$color4:  #30C88F; 
+$color5: #F2F2F2;  
+$color6: #F4F5F7; 
+$color7:  linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%); 
+ 

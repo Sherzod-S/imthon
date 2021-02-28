@@ -1,0 +1,192 @@
+@use 'lib'; 
+  
+ 
+// site main first section
+.site-main {  
+    width: 1300px;  
+    height: 700px; 
+    // margin-top: 20px;
+    background-color: lib.$color5;
+}  
+.wraper { 
+    display: flex;
+} 
+.site-heading { 
+    // border: 1px solid blueviolet;
+}
+.site-heading-text {  
+    width: 410px;  
+    margin: 170px 0 0 80px; 
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 100;
+    font-size: 56px;
+    line-height: 64px;
+} 
+.site-article { 
+    width: 450px;  
+    margin: 24px 80px; 
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color:  lib.$color2;
+}  
+.site-button2 { 
+    margin: 36px 80px;
+}
+.site-button2 a {   
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: lib.$color1;  
+    background: lib.$color7;
+    border-radius: 22px; 
+}  
+.site-button2:hover { 
+    Opacity: 40%; 
+}
+ 
+// site main second section   
+  
+.site-main2 {  
+    width: 1300px;  
+    height: 700px; 
+    // margin-top: 20px;
+    background-color: lib.$color6;
+}  
+.site-heading2 { 
+    // border: 1px solid blueviolet;
+}
+.site-heading-text2 {  
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;  
+    font-family: 'Public Sans', sans-serif;
+    letter-spacing: -0.714286px; 
+    color:  lib.$color3; 
+    margin-left: 80px;
+} 
+.site-article2 { 
+    width: 630px;  
+    margin: 24px 80px; 
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: lib.$color2;
+}  
+  
+.services-section-list { 
+    display: flex; 
+}
+.services-section-items { 
+    list-style-type: none; 
+    margin: 72px 0 0 20px; 
+    padding-left: 50px;
+}  
+ 
+.site-heading-text3 {  
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px; 
+    margin-top: 40px;
+    letter-spacing: -0.428571px;
+    color:  lib.$color3;
+}
+.site-article3 { 
+    width: 220px;  
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px; 
+    margin-top: 25px;
+    letter-spacing: -0.25px;
+    color: lib.$color2;
+} 
+ 
+.site-main3 { 
+    width: 1300px; 
+    height: 800px; 
+    background-color: lib.$color5;
+} 
+ 
+.site-heading-text5 {  
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px; 
+    letter-spacing: -0.714286px;
+    color:  lib.$color3; 
+    margin: 80px 0 0 80px;
+} 
+.services-section-items2 { 
+    list-style-type: none; 
+    margin: 72px 0 0 35px;  
+    background:  lib.$color1;
+    border-radius: 5px;
+    // padding-left: 50px;
+}  
+.services-section-list a { 
+    text-decoration: none;
+} 
+.site-heading-text4 {  
+    width: 190px; 
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.285714px;
+    color:  lib.$color3; 
+    margin-left: 44px;
+}  
+.site-heading-text4:hover { 
+    color: 
+    rgba(48, 200, 143, 1);
+}
+.site-article4 {  
+    width: 190px; 
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;  
+    margin-left: 44px; 
+    letter-spacing: -0.203125px;
+    color: lib.$color2;
+} 
+ 
+// @media only screen and (max-width: 400px) { 
+//     .site-main {  
+//         width: 400px;  
+//         height: 600px;  
+//         // margin-top: 20px;
+//         background-color: lib.$color5;
+//     }   
+//     .site-heading-text {  
+//         width: 400px;  
+//         font-size: 46px;
+//         margin: 10px 0 0 0; 
+//         padding: 0;
+//         text-align: center;
+//     }  
+//     .site-article { 
+//         width: 400px;  
+//         font-size: 18px;
+//         margin: 20px 0 0  20px; 
+//         padding: 0; 
+//         text-align: center;
+//     }  
+//     .site-button2 a { 
+//        margin-top: 80px; 
+//        margin-left: 80px;
+//     } 
+//     // .site-button2 { 
+//     //     margin-top: 0px;
+//     // }
+// }
+
+ 
+ 
+  
+ 

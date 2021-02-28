@@ -1,0 +1,68 @@
+@use 'lib'; 
+.site-header {  
+    display: flex;  
+    // position: fixed;
+    width: 1300px; 
+    // height: 80px; 
+    justify-content: space-around;
+    background:   lib.$color1; 
+    padding:  10px; 
+    
+}  
+.site-logo { 
+    // display: inline-flex;  
+    margin-left: -80px;
+    padding: 10px 20px;
+}
+.list { 
+    display: flex; 
+    list-style-type: none; 
+    font-family: 'Public Sans', sans-serif; 
+    margin: 0; 
+    padding: 0;
+} 
+.item a { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: lib.$color2;  
+}  
+
+.item:hover {  
+    color: lawngreen;
+}
+.site-button { 
+    margin-top: 10px; 
+} 
+.site-button a {     
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: lib.$color1;  
+    background: lib.$color7;
+    border-radius: 22px;
+
+}   
+.site-button:hover { 
+    Opacity: 40%; 
+}
+ 
+// @media only screen and ( max-width: 450px) { 
+//     .site-header { 
+//         width: 450px; 
+//         justify-content: space-between;
+//     } 
+//     .site-logo { 
+//         // display: inline-flex;   
+//         width: 50px;
+//         margin-left: 10px;
+//         padding: 10px 20px;
+//     } 
+//     .list { 
+//         display: none; 
+//     } 
+//     .site-button { 
+//         display: none; 
+        
+//     }  
+
+// }
